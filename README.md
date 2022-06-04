@@ -4,8 +4,12 @@
 
 ### local setup
 * clone the repo
-* create a venv => Python3 -m venv env
-* activate the venv => source env/bin/activate
-* install the dependencies  => pip install -r requirements.txt
-* start the app => docker-compose -f flask_compose.yml up
+* create a venv
+```Python3 -m venv env```
+* activate the venv
+```source env/bin/activate```
+* install the dependencies
+```pip install -r requirements.txt```
+* start the app
+```docker-compose -f flask_compose.yml up```
 * endpoint http://localhost:5000/search/<word to search>
