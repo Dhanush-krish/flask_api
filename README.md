@@ -5,7 +5,7 @@
 ### local setup
 * clone the repo
 * create a venv
-```Python3 -m venv env```
+```python3 -m venv env```
 * activate the venv
 ```source env/bin/activate```
 * install the dependencies

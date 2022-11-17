@@ -10,7 +10,7 @@ myapp = Flask(__name__)
 
 
 
-@myapp.route("/")
+@myapp.route("/hello-world")
 def home():
     return "search api"
 
